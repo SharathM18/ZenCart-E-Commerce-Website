@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/FontFamily/Montserrat-VariableFont_wght.woff2);
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url(./assets/FontFamily/MerriweatherSans-VariableFont_wght.woff2);
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* font size */
+  --font-size-title-desktop: 2.25rem;
+  --font-size-subheading-desktop: 2rem;
+  --font-size-mainbody-desktop: 1.25rem;
+  --font-size-body-desktop: 1rem;
+  --font-size-subbody-desktop: 0.875rem;
+
+  /* --font-size-title-tablet: 2.25rem;
+  --font-size-title-mobile: 1.75rem;
+  
+  --font-size-subheading-mobile: 1.25rem;
+
+  --font-size-body-tablet: 1rem;
+  --font-size-body-mobile: 0.875rem;
+  
+  --font-size-nav-desktop: 1rem;
+  --font-size-nav-tablet: 0.875rem;
+  --font-size-nav-mobile: 0.75rem; */
+
+  /* font family  */
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-merriweather: "Merriweather Sans", serif;
+}
+
+/* light Mode Styles */
+[data-theme="light"] {
+  --color-title: #000000;
+  --color-subheading: #333333;
+  --color-body: #111111;
+  --color-border: #b3b3b3;
+  --color-background: #fafafa;
+  --color-hover: #b5b5b5;
+  --color-mark: #007bff;
+
+  --color-button: #007bff;
+}
+
+/* dark Mode Styles */
+[data-theme="dark"] {
+  --color-title: #ffffff;
+  --color-subheading: #b0b0b0;
+  --color-body: #e0e0e0;
+  --color-border: #444444;
+  --color-background: #121212;
+  --color-hover: #676767;
+  --color-mark: #4d9de0;
+
+  --color-button: #4d9de0;
+}
+body {
+  font-family: var(--font-family-merriweather);
+  font-size: var(--color-body);
+}
+button {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background: none;
+  cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+a,
+abbr {
+  text-decoration: none;
+}

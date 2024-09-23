@@ -1,0 +1,32 @@
+.products_list_section {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--color-background);
+  font-family: var(--font-family-montserrat);
+}
+
+.product_list_header {
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products_sorting,
+.products_sorting option {
+  width: 200px;
+  padding: 0.3em 0.6em;
+  border: 1.5px solid var(--color-border);
+  border-radius: 5px;
+  font-family: var(--font-family-montserrat);
+  text-align: center;
+  background-color: var(--color-background);
+  font-weight: 500;
+}
+
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,22 @@
+.common_table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--color-body);
+  font-family: var(--font-family-montserrat);
+}
+
+.common_table thead th,
+.common_table tbody td {
+  padding: 0.3em 0.6em;
+  border: 1.5px solid var(--color-border);
+  text-align: center;
+}
+
+.common_table tbody td {
+  font-size: var(--font-size-subbody-desktop);
+  font-weight: 500;
+}
+
+.common_table thead tr {
+  background-color: var(--color-hover);
+}

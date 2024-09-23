@@ -1,0 +1,20 @@
+.featured_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background);
+}
+
+.featured_Product_title {
+  font-size: var(--font-size-subheading-desktop);
+  font-family: var(--font-family-montserrat);
+  padding-bottom: 40px;
+}
+
+.featured_products_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
